@@ -1,0 +1,277 @@
+*{
+padding: 0;
+margin: 0;
+border: border-box;
+}
+
+.nav
+{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    justify-content:space-evenly; 
+    align-items: center;
+}
+.nav-logo
+{
+    height:50px;
+    width:100px;
+}
+.logo > img
+{
+    height:50px;
+    width: 100%;
+    background-size: cover;
+}
+.border
+{
+ border: 1.5px solid transparent;
+}
+.add-icon
+{
+    display: flex;
+    align-items: center;
+}
+.first
+{
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left:15px;
+}
+.second
+{
+ font-size: 1rem;
+ margin-left:3px;
+}
+
+.border:hover
+{
+    border: 1.5px solid white;
+}
+.search-box
+{
+    display: flex;
+    background-color: pink;
+    justify-content: space-evenly; 
+    height:40px;
+    width:610px;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.search-box:hover
+{
+    border: 2px solid orange;
+}
+.search-select
+{
+    background-color: #E6E6E6;
+    width: 50px;
+    border-radius: 4px;
+    border: none;
+   text-align: center;
+}
+.search-input
+{
+    width:100%;
+    border: none;
+    font-size: 1rem;
+}
+.search-img
+{
+    width:45px;
+    background-color:#febd68 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+.nav-first
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+span
+{
+    font-size: 0.7rem;
+}
+.nav-second
+{
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+.Cart > i
+{
+    font-size: 30px;
+}
+.Cart
+{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel-section
+{
+    display: flex;
+    height:40px;
+    align-items: center;
+    background-color: #222f3d;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-ops > p
+{
+    display: inline;
+    margin-left: 15px;
+    font-size: 0.85rem;
+    width: 70%;
+}
+.panel-ops
+{
+    font-size: 0.85rem;
+    width: 70%;
+}
+.deals
+{
+    font-size:.9rem;
+    font-weight: 700;
+}
+.hero-section
+{
+    height: 350px;
+    background-size: cover;
+    background-image: url("hero_image.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg
+{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 25px;
+    font-size: 0.85rem;
+}
+.hero-msg > a
+{
+ color: #007185;
+}
+.shop-section
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box
+{
+ height:400px;
+ /* border: 2px solid black; */
+ width:23%;
+ background-color: white;
+ padding: 20px 0px 15px;
+ margin-top: 10px;
+}
+.box-img
+{
+    height:300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content
+{
+margin-left: 1rem;
+margin-right: 1rem;
+}
+.box-content > p
+{
+ color: #007185;
+}
+footer
+{
+    margin-top: 3px;
+}
+.panel-1
+{
+    height: 50px;
+    font-size: 1rem;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.panel-2
+{
+    background-color: #222f3d;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+ul > a
+{
+    color: white;
+    font-size: 0.85 rem;
+    display: block;
+    margin-top: 10px;
+}
+ul{
+    margin-top: 15px;
+}
+.panel-2 > ul
+{
+    color: #dddddd;
+    font-size: 1.0 rem;
+}
+.panel-3
+{
+    height: 70px;
+    background-color:#222f3d;
+    border-top: 1px solid #dddddd;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo >img
+{
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.panel-4
+{
+    background-color: #131A22;
+    height: 78px;
+    padding: 10px 0px 30px;
+    color: #dddddd;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 0.8rem;
+}
+.pages
+{
+ color: #dddddd;
+ text-align: center;
+}
+.pages > a
+{
+ color: #dddddd;
+ padding: 0px 7.2px;
+}
+.copyright
+{
+    text-align: center; 
+}
+
